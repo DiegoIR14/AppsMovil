@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.TecsupApp.AppWidget.Container"
+    android:layout_width="220dp"
+    android:layout_height="100dp"
+    android:background="@drawable/shape_widget"
+    android:theme="@style/Theme.TecsupApp.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/imgClima"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/clima" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20°"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imgClima"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
